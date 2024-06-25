@@ -15,7 +15,7 @@ import numpy as np
 import seaborn as sns
 
 # Load the dataset from the uploaded location
-file_path ='/station_data_dataverse.csv'
+file_path ='station_data_dataverse.csv'
 data = pd.read_csv(file_path)
 
 # Display the first few rows of the dataset and check for missing values and data types
